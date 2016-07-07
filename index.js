@@ -23,9 +23,9 @@ module.exports = {
     rules:
     {
         'flowtype/require-parameter-type':  1,
-        'flowtype/require-return-type':     [1, 'always', { annotateUndefined: 'never' }],
-        'flowtype/space-after-type-colon':  [1, 'always'],
-        'flowtype/space-before-type-colon': [1, 'never'],
-        'flowtype/type-id-match':           [1, '^([A-Z][a-z0-9]+)+Type$'],
+        'flowtype/require-return-type':     1,
+        'flowtype/space-after-type-colon':  1,
+        'flowtype/space-before-type-colon': 1,
+        'flowtype/type-id-match':           1,
     },
 };
