@@ -1,5 +1,8 @@
 {
   "name": "@hughescr/eslint-config-flow",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.1",
   "description": "ESLint config using @hughescr/eslint-config-default and adding Flow type annotation support",
   "main": "index.js",
