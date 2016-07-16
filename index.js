@@ -12,6 +12,7 @@ module.exports = {
     plugins:
     [
         'flowtype',
+        'flow-vars',
     ],
     settings:
     {
@@ -26,6 +27,8 @@ module.exports = {
         'flowtype/require-return-type':     1,
         'flowtype/space-after-type-colon':  1,
         'flowtype/space-before-type-colon': 1,
-        'flowtype/type-id-match':           1,
+        'flowtype/type-id-match':           0,
+        'flow-vars/define-flow-type':       1,
+        'flow-vars/use-flow-type':          1,
     },
 };

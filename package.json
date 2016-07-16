@@ -1,6 +1,9 @@
 {
   "name": "@hughescr/eslint-config-flow",
-  "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.2",
   "description": "ESLint config using @hughescr/eslint-config-default and adding Flow type annotation support",
   "main": "index.js",
   "scripts": {
@@ -15,6 +18,7 @@
   "dependencies": {
     "@hughescr/eslint-config-default": "^1.1.1",
     "babel-eslint": "^6.1.0",
+    "eslint-plugin-flow-vars": "^0.4.0",
     "eslint-plugin-flowtype": "^2.3.0"
   }
 }
