@@ -3,9 +3,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ESLint config using @hughescr/eslint-config-default and adding Flow type annotation support",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughescr/eslint-config-flow.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git commit -m \"Bump package version to $npm_package_version\" package.json; git flow release start $npm_package_version; git flow release finish -m $npm_package_version $npm_package_version; git checkout develop; git merge master"
@@ -18,6 +22,12 @@
   "dependencies": {
     "@hughescr/eslint-config-default": "^1.1.1",
     "babel-eslint": "^6.1.0",
+    "eslint-plugin-flow-vars": "^0.5.0",
+    "eslint-plugin-flowtype": "^2.3.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint": "^3.0.1",
     "eslint-plugin-flow-vars": "^0.5.0",
     "eslint-plugin-flowtype": "^2.3.0"
   }
