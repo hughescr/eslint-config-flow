@@ -13,6 +13,6 @@ Then put this in .eslintrc:
 'use strict';
 
 module.exports = {
-    'extends': '@hughescr/eslint-config-flowtype',
+    'extends': '@hughescr/eslint-config-flow',
 };
 ```
