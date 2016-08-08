@@ -12,7 +12,6 @@ module.exports = {
     plugins:
     [
         'flowtype',
-        'flow-vars',
     ],
     settings:
     {
