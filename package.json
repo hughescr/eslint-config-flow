@@ -21,12 +21,13 @@
   },
   "dependencies": {
     "@hughescr/eslint-config-default": "^2.0.0",
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.2.2",
     "eslint-plugin-flowtype": "^2.35.0"
   },
   "peerDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.3.0",
-    "eslint-plugin-flowtype": "^2.35.0"
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-promise": "^3.7.0"
   }
 }
