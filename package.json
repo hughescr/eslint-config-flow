@@ -20,7 +20,7 @@
     "eslint": "^5.16.0"
   },
   "dependencies": {
-    "@hughescr/eslint-config-default": "^2.4.2",
+    "@hughescr/eslint-config-default": "^2.4.3",
     "eslint-plugin-flowtype": "^3.6.0"
   },
   "peerDependencies": {
