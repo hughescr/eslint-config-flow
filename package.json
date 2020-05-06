@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@hughescr/eslint-config-default": "^2.4.8",
-    "eslint-plugin-flowtype": "^4.6.0"
+    "eslint-plugin-flowtype": "^4.7.0"
   },
   "peerDependencies": {
     "babel-eslint": "^8.2.2",
