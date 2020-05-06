@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "ESLint config using @hughescr/eslint-config-default and adding Flow type annotation support",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@hughescr/eslint-config-default": "^2.4.8",
-    "eslint-plugin-flowtype": "^4.6.0"
+    "eslint-plugin-flowtype": "^4.7.0"
   },
   "peerDependencies": {
     "babel-eslint": "^8.2.2",
